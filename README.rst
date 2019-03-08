@@ -5,13 +5,13 @@ Kitware, Carrboro, North Carolina, USA
 ======================================
 
 .. image:: https://mybinder.org/badge.svg
-  :target: https://mybinder.org/v2/gh/KitwareMedical/2018-05-30-KRSCourseInBiomedicalImageAnalysisAndVisualization/master
+  :target: https://mybinder.org/v2/gh/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization/master
 
 Instructors:
 
 - Matt McCormick, PhD
 - Dženan Zukić, PhD
-- Francois Budin
+- Francois Budin, PhD
 
 .. image:: data/kitware-logo.png
   :alt: Kitware
@@ -42,7 +42,7 @@ On the Web, with Binder
 
 To run the notebooks in
 `MyBinder <https://mybinder.readthedocs.io/en/latest/>`_,
-simply `click this link <https://mybinder.org/v2/gh/KitwareMedical/2018-05-30-KRSCourseInBiomedicalImageAnalysisAndVisualization/master>`_.
+simply `click this link <https://mybinder.org/v2/gh/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization/master>`_.
 
 Locally, with Docker
 ^^^^^^^^^^^^^^^^^^^^
@@ -52,8 +52,8 @@ available.
 
 Next, clone the repository::
 
-  git clone https://github.com/KitwareMedical/2018-05-30-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
-  cd 2018-05-30-KRSCourseInBiomedicalImageAnalysisAndVisualization
+  git clone https://github.com/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
+  cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
 
 Then, build and run the Docker image::
 
@@ -79,8 +79,8 @@ Next, install the required dependencies::
 
 Then, clone the repository::
 
-  git clone https://github.com/KitwareMedical/2018-05-30-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
-  cd 2018-05-30-KRSCourseInBiomedicalImageAnalysisAndVisualization
+  git clone https://github.com/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
+  cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
 
 And start Jupyter::
 
@@ -101,8 +101,8 @@ Next, install the required dependencies::
 
 Then, clone the repository::
 
-  git clone https://github.com/KitwareMedical/2018-05-30-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
-  cd 2018-05-30-KRSCourseInBiomedicalImageAnalysisAndVisualization
+  git clone https://github.com/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
+  cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
 
 And start Jupyter::
 
