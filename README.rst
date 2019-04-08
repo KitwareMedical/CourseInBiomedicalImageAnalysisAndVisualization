@@ -44,24 +44,6 @@ To run the notebooks in
 `MyBinder <https://mybinder.readthedocs.io/en/latest/>`_,
 simply `click this link <https://mybinder.org/v2/gh/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization/master>`_.
 
-Locally, with Docker
-^^^^^^^^^^^^^^^^^^^^
-
-First, `install Docker <https://docs.docker.com/install/>`_, if not already
-available.
-
-Next, clone the repository::
-
-  git clone https://github.com/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
-  cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
-
-Then, build and run the Docker image::
-
-  ./build.sh
-  ./run.sh
-
-Paste the URL presented in the terminal in your web browser.
-
 Locally, with Python from Python.org or a System Python
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -104,3 +86,22 @@ Then, clone the repository::
 And start Jupyter::
 
   python -m jupyter notebook
+
+Locally, with Docker
+^^^^^^^^^^^^^^^^^^^^
+
+First, `install Docker <https://docs.docker.com/install/>`_, if not already
+available.
+
+Next, clone the repository::
+
+  git clone https://github.com/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
+  cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
+
+Then, build and run the Docker image::
+
+  ./build.sh
+  ./run.sh
+
+Paste the URL presented in the terminal in your web browser.
+
