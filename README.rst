@@ -105,3 +105,23 @@ Then, build and run the Docker image::
 
 Paste the URL presented in the terminal in your web browser.
 
+With Jupyter Lab instead of the Jupyter Notebook
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To run under [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/)
+instead of the Jupyter Notebook, install the *jupyterlab* package and
+[Node.js](https://nodejs.org/en/download/), e.g.::
+
+  conda install jupyterlab nodejs
+
+Then install the required extensions::
+
+  jupyter labextension install @jupyter-widgets/jupyterlab-manager itk-jupyter-widgets
+
+And start Jupyter with::
+
+  python -m jupyter lab
+
+instead of::
+
+  python -m jupyter notebook
