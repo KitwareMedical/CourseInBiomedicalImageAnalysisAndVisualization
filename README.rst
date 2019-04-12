@@ -44,24 +44,6 @@ To run the notebooks in
 `MyBinder <https://mybinder.readthedocs.io/en/latest/>`_,
 simply `click this link <https://mybinder.org/v2/gh/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization/master>`_.
 
-Locally, with Docker
-^^^^^^^^^^^^^^^^^^^^
-
-First, `install Docker <https://docs.docker.com/install/>`_, if not already
-available.
-
-Next, clone the repository::
-
-  git clone https://github.com/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
-  cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
-
-Then, build and run the Docker image::
-
-  ./build.sh
-  ./run.sh
-
-Paste the URL presented in the terminal in your web browser.
-
 Locally, with Python from Python.org or a System Python
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -102,5 +84,44 @@ Then, clone the repository::
   cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
 
 And start Jupyter::
+
+  python -m jupyter notebook
+
+Locally, with Docker
+^^^^^^^^^^^^^^^^^^^^
+
+First, `install Docker <https://docs.docker.com/install/>`_, if not already
+available.
+
+Next, clone the repository::
+
+  git clone https://github.com/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
+  cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
+
+Then, build and run the Docker image::
+
+  ./build.sh
+  ./run.sh
+
+Paste the URL presented in the terminal in your web browser.
+
+With Jupyter Lab instead of the Jupyter Notebook
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To run under [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/)
+instead of the Jupyter Notebook, install the *jupyterlab* package and
+[Node.js](https://nodejs.org/en/download/), e.g.::
+
+  conda install jupyterlab nodejs
+
+Then install the required extensions::
+
+  jupyter labextension install @jupyter-widgets/jupyterlab-manager itk-jupyter-widgets
+
+And start Jupyter with::
+
+  python -m jupyter lab
+
+instead of::
 
   python -m jupyter notebook
