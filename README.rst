@@ -1,4 +1,5 @@
-================================================
+**NOTE:** The updated version of this course material is here: https://github.com/InsightSoftwareConsortium/ScientificImageAnalysisVisualizationAndArtificialIntelligenceCourse
+
 Biomedical Image Analysis and Visualization: ITK
 ================================================
 Kitware, Carrboro, North Carolina, USA
